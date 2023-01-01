@@ -1,0 +1,27 @@
+.instagram-action-button {
+  position: fixed;
+  border: none;
+  background-color: rgb(var(--ig-secondary-button-background));
+  color: rgb(var(--web-always-black));
+  font-family: var(--font-family-system);
+  font-size: 14px;
+  font-weight: var(--font-weight-system-semibold);
+  cursor: pointer;
+  padding: 8px 20px;
+  right: 77px;
+  top: 33px;
+  border-radius: 4px;
+}
+
+
+.instagram-dialog-box{
+	position: fixed;
+	top: 0;
+	background: rgb(var(--ig-primary-background));
+	color: rgb(var(--ig-primary-text));
+	width: 50vw;
+	height: 100vh;
+	z-index: 4;
+	display: none;
+	overflow-y: scroll;
+}

@@ -1,0 +1,15 @@
+body{
+	background-color: white !important;
+	color: black !important;
+}
+pre {
+	display: none;
+}
+
+.danger{
+	background-color: #EF5350;
+}
+
+.danger div {
+	color: white !important;	
+}
